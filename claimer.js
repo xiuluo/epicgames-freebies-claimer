@@ -79,6 +79,7 @@ function getToughCookie(cookie) {
                 "password":            process.argv[3],
                 "rememberLastSession": Boolean(Number(process.argv[4])),
                 "secret":              process.argv[5],
+                "cookies":              process.argv[6],
             }];
         }
 
